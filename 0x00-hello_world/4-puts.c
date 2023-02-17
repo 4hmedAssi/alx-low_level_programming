@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - this a main function use puts to prints
+ * main - it is a functionon have puts and return
+ * puts : prints function
  * Return : 0 (Success)
  */
 int main(void)
