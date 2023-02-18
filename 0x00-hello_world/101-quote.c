@@ -1,10 +1,9 @@
 #include<stdio.h>
 #include<unistd.h>
-
 /**
  * main - Enter pointer
  *
- * Return: 1 (Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
