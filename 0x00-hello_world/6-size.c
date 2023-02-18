@@ -6,12 +6,17 @@
  */
 int main(void)
 {
-Printf("Size of a char: %d byte(s) \n", (unsigned long)Size of(char));
-Printf("Size of an int: %d byte(s) \n", (unsigned long)Size of(int));
-Printf("Size of a long int: %d byte(s) \n", (unsigned long)Size of(long int));
+char a;
+int b;
+long int c;
+long long d;
+float e;
+Printf("Size of a char: %d byte(s) \n", (unsigned long)Size of(a));
+Printf("Size of an int: %d byte(s) \n", (unsigned long)Size of(b));
+Printf("Size of a long int: %d byte(s) \n", (unsigned long)Size of(c));
 Printf("Size of a long long int: %d byte(s) \n"
-, (unsigned long)Size of(long long));
-Printf("Size of a float: %d byte(s) \n", (unsigned long Size of(float));
+, (unsigned long)Size of(d));
+Printf("Size of a float: %d byte(s) \n", (unsigned long Size of(e));
 return (0);
 }
 
