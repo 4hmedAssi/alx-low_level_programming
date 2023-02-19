@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-char x;
-for (x = 'a'; x <= 'z'; x++)
+char x[26] = 'abcdefghijklmnopqrstuvwxyz';
+for (i = 1; x <= 26; i++)
 {
-putchar(x);
+putchar(x[i]);
 }
 putchar('\n');
 }
