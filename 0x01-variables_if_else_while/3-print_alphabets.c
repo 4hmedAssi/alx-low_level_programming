@@ -6,6 +6,10 @@
 int main(void)
 {
 int x;
+for (int y = 'a'; y <= 'z'; y++)
+{
+putchar(y);
+}
 for (x = 'A'; x <= 'Z'; x++)
 {
 putchar(x);
