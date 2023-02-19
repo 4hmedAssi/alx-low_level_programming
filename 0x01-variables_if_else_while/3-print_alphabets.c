@@ -1,14 +1,14 @@
 #include<stdio.h>
 /**
- * main - Enter point
+ * main - Enter alphabet
  * Return: o(Success)
  */
 int main(void)
 {
 char x;
 for (x = 'a'; x <= 'z'; x++)
-{
-putchar(y);
+{i
+putchar(x);
 }
 for (x = 'A'; x <= 'Z'; x++)
 {
