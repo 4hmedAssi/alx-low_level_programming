@@ -9,7 +9,7 @@ int y;
 char x;
 for (y = 0; y <= 9; y++)
 {
-putchar(48+y);
+putchar(48 + y);
 }
 for (x = 'a'; x <= 'f'; x++)
 {
