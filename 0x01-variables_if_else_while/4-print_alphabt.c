@@ -7,18 +7,8 @@ int main(void)
 {
 for (char x = 'a'; x <= 'z'; x++)
 {
-if (x == 'e')
-{
-x;
-}
-else if (x == 'q')
-{
-x;
-}
-else
-{
+if (x == 'e' && x == 'q')
 putchar(x);
-}
 }
 putchar('\n');
 return (0);
