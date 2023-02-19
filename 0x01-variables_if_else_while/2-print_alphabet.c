@@ -1,15 +1,15 @@
 #include<stdio.h>
 /**
  * main - Enter point
- *
  * Return: o(Success)
  */
 int main(void)
 {
-char x[26] = 'abcdefghijklmnopqrstuvwxyz';
-for (i = 1; x <= 26; i++)
+int x;
+for (x = 'a'; x <= 'z'; x++)
 {
-putchar(x[i]);
-}
+putchar(x);
 putchar('\n');
+}
+return (0);
 }
