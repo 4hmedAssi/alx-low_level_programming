@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
  * main - Enter point
+ *
  * Return: o(Success)
  */
 int main(void)
