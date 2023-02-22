@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_alphabet - Enter point
- * return : 0(success)
+ * return : void
  */
 void print_alphabet(void)
 {
@@ -12,5 +12,4 @@ _putchar(a);
 a++;
 }
 _putchar('\n');
-return (0);
 }
