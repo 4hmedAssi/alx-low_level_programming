@@ -1,12 +1,13 @@
 #include "main.h"
- /**
+/**
  * _strcat - concatenates two strings
- * @dest: input value
- * @src: input value
+ * @dest: string 1
+ * @src: strint 2
  *
- * Return: void	the rusalt
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-uhar *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
@@ -29,3 +30,4 @@ uhar *_strcat(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
+
